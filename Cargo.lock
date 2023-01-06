@@ -325,10 +325,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "direct-cargo-bazel-deps"
-version = "0.0.1"
-
-[[package]]
 name = "dirs-next"
 version = "2.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -819,7 +815,7 @@ dependencies = [
  "ic-types",
  "icrc1-test-env",
  "icrc1-test-suite",
- "pico-args 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "pico-args 0.5.0",
  "reqwest",
  "tokio",
 ]
@@ -921,7 +917,7 @@ dependencies = [
  "itertools",
  "lalrpop-util",
  "petgraph",
- "pico-args 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "pico-args 0.4.2",
  "regex",
  "regex-syntax",
  "string_cache",
@@ -1867,9 +1863,9 @@ checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
 
 [[package]]
 name = "tokio"
-version = "1.20.1"
+version = "1.20.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7a8325f63a7d4774dd041e363b2409ed1c5cbbd0f867795e661df066b2b0a581"
+checksum = "664cf6576f16c0ad68184998f3c2d4be9903ede6b291a5b5cfc97d29e0057283"
 dependencies = [
  "autocfg",
  "bytes",
@@ -1877,7 +1873,6 @@ dependencies = [
  "memchr",
  "mio",
  "num_cpus",
- "once_cell",
  "pin-project-lite",
  "socket2",
  "tokio-macros",
