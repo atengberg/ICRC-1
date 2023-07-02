@@ -1,0 +1,6 @@
+[package]
+name = "icrc1_account_converter"
+version = "0.2.0"
+description = "Fork of the official dfinity ICRC1 ref"
+repository = "https://github.com/atengberg/ICRC-1/"
+license = "Apache-2.0"
